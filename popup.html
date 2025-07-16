@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Analysis with witrchess</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div id="mainView">
+            <h1>Analyse with wintrchess</h1>
+            <p>
+                It will redirect you to wintrchess.com and start analysing your
+                game.
+            </p>
+            <div class="center">
+                <br />
+                <button id="analyse">
+                    <img id="btn" src="assets/icon128.jpg" alt="Analyse" />
+                </button>
+                <br />
+                <button id="showManual">How to use?</button>
+            </div>
+        </div>
+
+        <div id="manualView" style="display: none">
+            <h1>Manual</h1>
+            <p>Manual to use this tool</p>
+            <ul>
+                <li>
+                    Step 1: When in lichess analysis click Knight button to
+                    analyse
+                </li>
+                <li>
+                    Step 2: Tool copies PGN and redirects to the wintrchess.com
+                </li>
+                <li>Step 3: Tool pastes the PGN and starts analysis</li>
+            </ul>
+            <div class="center">
+                <button id="goBack">Back</button>
+            </div>
+        </div>
+        <footer>Made by Marcin Wisniewski</footer>
+        <script src="popup.js"></script>
+    </body>
+</html>

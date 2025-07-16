@@ -1,0 +1,28 @@
+body {
+    background-color: #161616;
+    color: #fff;
+    font-family: Arial;
+    padding: 25px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btn {
+    width: 70px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #ccc;
+}
+
+br {
+    margin: 10px;
+}
