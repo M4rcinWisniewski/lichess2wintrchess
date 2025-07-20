@@ -1,10 +1,7 @@
 
 # Lichess2Wintrchess
 
-Firefox extension to analyse for lichess games with witrchess web application
-
-
-![Logo](icon128.jpg)
+[Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/lichess2wintrchess/) to analyse your lichess games with witrchess web application with one click
 
 
 ## Features
